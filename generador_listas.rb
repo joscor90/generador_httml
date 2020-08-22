@@ -11,4 +11,5 @@ while i < input_usuario
     elementos += "\t</li>\n"
 end
 
-
+#Output concatenando con los tag <ul></ul>
+puts "<ul>\n"+elementos+"</ul>"
