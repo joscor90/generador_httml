@@ -8,7 +8,7 @@ elementos = ""
 #Ciclo generador de elementos li para el usuario
 while i < input_usuario
     i += 1
-    elementos += "\t</li>\n"
+    elementos += "\t<li>item #{i}</li>\n"
 end
 
 #Output concatenando con los tag <ul></ul>
